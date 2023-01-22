@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+.clock{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.303);
+    border-radius: 100%;
+    padding: 50px;
+
+}
+
+
+
+
+.time{
+    font-size: 100px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+
+.date_time{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+/* 
+@media sreen and (max-width: 780px){.time
+{
+ font-size: 50px;   
+}} */
+
+img{
+    position:absolute ;
+    z-index: -2;
+    width: 99vw;
+}
+ 
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/wp2232354.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
